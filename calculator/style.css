@@ -1,0 +1,127 @@
+body {
+	background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+}
+input {
+	width: 150px;
+	height:100px;
+	font-size:75px;
+	border-radius: 10px;
+	margin: 10px; /*top right botton left (trbl)*/
+	background-color: #000;
+	color: #fff;
+	border-style:none;
+}
+
+#myform {
+	padding-left:275px;
+	margin-top:0px;
+	float: inherit;
+	/*border:medium solid purple;*/
+}
+h1 {
+	text-align: center;
+	font-size: 80px;
+	margin-right: 150px;
+	margin-top: 20px;
+	margin-left: 150px;
+	margin-bottom: 20px;
+}
+.btn {
+	background-color: yellow;
+	text-align: center;
+	color:black;
+}
+.btn:hover {
+	background-color: crimson;
+	transition: all 0.5s;
+	color:white;
+}
+.sel:hover {
+	background-color: white;
+	color:black;
+	border: 3px white solid;
+	transition: all 0.5s;
+}
+#bt {
+	background-color: white;
+	color:red;
+	border: 2px solid red;
+}
+#bt:hover {
+	color:black;
+	border: 3px solid white;
+	background-color: red;
+	transition: 0.6s;
+	
+}
+#eql {
+	display: inline-block;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: orangered;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+#eql:hover {
+	background-color: blue;
+	transition: 0.5s;
+}
+
+#eql:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(5px);
+}
+@media screen and (max-width: 984px) {
+	body {
+		width:100%;
+	}
+	form {
+		width:100%;
+		padding-left: 200px;
+	}
+	h1 {
+		text-align: center;
+		font-size: 100px;
+	}
+	input {
+		display: inline;
+	}
+}
+@media screen and (max-width: 934px) {
+	body {
+		width:100%;
+	}
+	form {
+		width:100%;
+		height:100%;
+	}
+	h1 {
+		text-align: center;
+		font-size: 70px;
+	}
+	input {
+		display: inline;
+	}
+}
+@media screen and (max-width: 359px) {
+	body {
+		width:100%;
+	}
+	form {
+		width:100%;
+		height:100%;
+	}
+	h1 {
+		text-align: center;
+		font-size: 70px;
+	}
+	input {
+		display: inline;
+	}
+}
