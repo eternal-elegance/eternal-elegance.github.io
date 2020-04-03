@@ -1,0 +1,44 @@
+html,
+body{
+    width: 100%;
+}
+#dva
+{
+    display:flex;
+    align-items: center;
+
+}
+.cntr{
+    width: 100%;
+}
+
+#head{
+    background: url('s.jpg') center bottom no-repeat;
+}
+
+.projects img {
+    width: 80%;
+}
+
+.header .col-sm-12 {
+    text-align: center !important;
+}
+
+.projects{
+    background: url('a.jpg');
+}
+.zoom {
+    padding: 50px;
+    transition: transform .2s;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.25);
+  }
+.aboutme{
+    background: url('d.jpg') center bottom no-repeat;
+}
+  
