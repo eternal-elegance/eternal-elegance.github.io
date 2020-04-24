@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Girassol&family=Source+Code+Pro&family=Roboto+Slab:wght@500&family=Bangers&display=swap');
+body{
+    background-color:rgba(255, 36, 36, 0.444);
+}
+.container{
+    height:100vh;
+    width:100vw;
+   /* background-color:rgba(255, 36, 36, 0.244);*/
+    text-align:center;
+    display:block-flex;
+    justify-content: center;
+    
+
+}
+.quote-cls{
+    border: 3px solid black;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding:40px 2% 0px 2%;
+    font-size:1.5rem;
+    text-align:center;
+    display:block-flex;
+    justify-content: center;
+    align-self: center;
+    overflow:hidden;
+    height:30%;
+    margin: 0px 5% 0px 5%;
+
+}
+
+
+#btn{
+    border: 2px solid black;
+        background-color: rgba(255, 36, 36,0);
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin:3px;
+        border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+#btn:hover{
+    border-radius:10px;
+    transition:0.3s;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+#author{
+    font-size:1.2rem;
+    font-style:italic;
+}
+#quote{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+    margin:5px 0 0 0;
+
+}
+#author{
+    font-family: 'Girassol', cursive;
+    font-weight:100;
+    font-size: 1rem;
+    margin:5px;
+    color:white;
+}
+.heading{
+    font-family: 'Bangers', cursive;
+    font-weight:500;
+    margin: 0px 0 10px 0;
+    padding-top: 5px;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+footer{
+    background-color: rgb(16, 6, 68);
+    color:white;
+    text-align:center;
+   padding:5px 0 5px 0;
+
+}
